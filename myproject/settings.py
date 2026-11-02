@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-p2ts%i+qe4w&b545$#u0sdboo$1sx77m#%2m14nx=%s#iv)984
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://bus-booking-django.onrender.com"]
+ALLOWED_HOSTS = ["bus-booking-django.onrender.com"]
 
 
 # Application definition
