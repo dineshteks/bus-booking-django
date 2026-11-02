@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-p2ts%i+qe4w&b545$#u0sdboo$1sx77m#%2m14nx=%s#iv)984
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["bus-booking-django.onrender.com"]
+ALLOWED_HOSTS = [
+    "bus-booking-django.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
@@ -130,5 +134,5 @@ STATIC_URL = 'static/'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    " https://bus-booking-django.onrender.com"
+   "https://bus-booking-system-rust.vercel.app",
 ]
